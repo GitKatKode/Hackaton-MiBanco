@@ -246,7 +246,7 @@ class MyDataGrid extends Component {
                     onClick={this.handleSave}
                     type="submit"  
                     >Guardar</Button>
-          <Link className="link-reg" to ="/options"><Button variant="success"  size="lg">VOLVER</Button></Link>
+          <Link className="link-reg" to ="/options"><Button variant="success"  size="lg">Volver</Button></Link>
           </div>
       </div>
 

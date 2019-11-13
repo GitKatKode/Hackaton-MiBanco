@@ -95,8 +95,8 @@ const Teca = ({data, handleSave }) => {
                     size="lg"
                     onClick={handleSave}
                     type="submit"  
-                    >GUARDAR</Button>
-                <Link className="link-reg" to ="/options"><Button variant="success"  size="lg">VOLVER</Button></Link>
+                    >Guardar</Button>
+                <Link className="link-reg" to ="/options"><Button variant="success"  size="lg">Volver</Button></Link>
         </Form>
       </Tab>
     </Tabs>

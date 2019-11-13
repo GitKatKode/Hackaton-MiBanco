@@ -86,19 +86,19 @@ class ModRes extends Component {
 
   updateAsig = () => {
     const { clients } = this.state;
-    clients.forEach(client  => {
-      console.log(client)
-      db.collection("DataBase").doc(client.ID).update({
-        client
-      })
-        .then(() => {
-          alert('Se agrego correctamente')
-        })
-        .catch((error) => {
-          // The document probably doesn't exist.
-          console.error("Error updating document: ", error);
-        });
-    })
+    // clients.forEach(client  => {
+    //   console.log(client)
+    //   db.collection("DataBase").doc(client.ID).update({
+    //     client
+    //   })
+    //     .then(() => {
+    //       alert('Se agrego correctamente')
+    //     })
+    //     .catch((error) => {
+    //       // The document probably doesn't exist.
+    //       console.error("Error updating document: ", error);
+    //     });
+    // })
   }
 
   updateStateAsig = (e, id) => {
@@ -210,12 +210,12 @@ class ModRes extends Component {
         <Popup trigger={<Button variant="success" className="my-3">Guardar</Button>} modal>
     <div  className="popup" >
     <div>CAMBIOS REALIZADOS EXITOSAMENTE</div>
-    <button onClick={this.handlePopUp}>ACEPTAR</button>
+    <button onClick={this.handlePopUp}>Aceptar</button>
     </div>
 
   </Popup>
         
-  <Link className="link-reg" to ="/options"><Button variant="success" >VOLVER</Button></Link>
+  <Link className="link-reg" to ="/options"><Button variant="success" >Volver</Button></Link>
         </div>
       </div>
     );
