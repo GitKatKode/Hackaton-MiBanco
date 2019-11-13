@@ -9,7 +9,7 @@ import Teca from './Teca';
 
 
 const columns = [
-  { key: 'Id', name: 'NRO', width:60 },
+  { key: 'Id', name: 'NRO', width:60},
   { key: 'MODELO', name: 'MODELO', width:130},
   { key: 'CODIGO_CLIENTE', name: 'CODIGO CLIENTE', width:180},
   { key: 'NOMBRE_CLIENTE', name: 'NOMBRE CLIENTE', width:280},
@@ -151,7 +151,7 @@ class MyDataGrid extends Component {
         <div className="register">
           {rows.length === 0 &&
               <div>
-                <h3>Elije al cliente para registrar el Convenio o Teca!!!</h3>
+                <h4>Ingresa el código del Cliente y registra su Convenio o Teca. </h4>
               </div>}
             {rows.length !== 0 &&
               rows.map(el => {
