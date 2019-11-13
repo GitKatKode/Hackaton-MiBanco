@@ -233,7 +233,7 @@ class MyDataGrid extends Component {
           onGridRowsUpdated={this.onGridRowsUpdated}
           enableCellSelect
           minColumnWidth={40}
-          minHeight={50}
+          minHeight={200}
           cellRangeSelection={{
             onComplete: this.setSelection,
           }}
@@ -241,7 +241,7 @@ class MyDataGrid extends Component {
       </div>
           <div>
 
-         <Button variant="outline-success"
+         <Button variant="success"
                     size="lg"
                     onClick={this.handleSave}
                     type="submit"  
