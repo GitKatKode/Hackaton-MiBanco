@@ -85,7 +85,7 @@ class ModRes extends Component {
   }
 
   updateAsig = () => {
-    const { clients } = this.state;
+    // const { clients } = this.state;
     // clients.forEach(client  => {
     //   console.log(client)
     //   db.collection("DataBase").doc(client.ID).update({
