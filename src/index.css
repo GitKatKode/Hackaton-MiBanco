@@ -10,7 +10,6 @@
             box-sizing: border-box;
     outline: none;
     position: relative;
-  
     height: 100%;
     width: 100%;
     display: flex;
@@ -212,6 +211,7 @@ justify-content: center;
 .table-reg{
     font-weight: bold;
     padding: 2em;
+    width: 95%;
     
 }
 .register{
