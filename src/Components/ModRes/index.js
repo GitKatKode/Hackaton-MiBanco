@@ -206,12 +206,12 @@ class ModRes extends Component {
           </div>
         </div>
         <div className="d-flex justify-content-center">
-        <Popup className="popup" trigger={<button className="btn btn-success rounded-pill m-3 px-4">Guardar</button>} position="rigth">
+        <Popup className="popup" trigger={<Button variant="success" className="my-3">Guardar</Button>} position="rigth">
     <div>CAMBIOS REALIZADOS EXITOSAMENTE</div>
-    <button onClick={this.handlePopUp}>ACEPTAR</button>
+    <button  onClick={this.handlePopUp}>ACEPTAR</button>
   </Popup>
         
-        <button className="btn m-3 px-4">Volver</button>
+  <Link className="link-reg" to ="/options"><Button variant="success" >VOLVER</Button></Link>
         </div>
       </div>
     );
