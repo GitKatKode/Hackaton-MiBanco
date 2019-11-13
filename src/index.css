@@ -252,8 +252,15 @@ justify-content: center;
 }
 
 .popup{
-    background-color: lawngreen;
+    background-color: #009c32;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2.5em;
 }
+
 .mod-res{
     width: 100%;
 }
